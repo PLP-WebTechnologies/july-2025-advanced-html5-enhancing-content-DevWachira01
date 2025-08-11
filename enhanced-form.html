@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced form</title>
+</head>
+<body>
+    <section>
+        <h1>List</h1>
+        <ul>
+            <li>home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+
+    </section>
+    <section>
+        <h1>Table</h1>
+        <table border="1">
+            <thead>
+                <caption>Student Data</caption>
+                <tr>
+                    <th>Name</th>
+                    <th>Admission No</th>
+                    <th>Gender</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dennis Wachira</td>
+                    <td>A001</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td>Jackline Anyango</td>
+                    <td>A002</td>
+                    <td>Female</td>
+                </tr>
+                <tr>
+                    <td>James Kamau</td>
+                    <td>A003</td>
+                    <td>Male</td>
+                </tr>
+            </tbody>
+
+        </table>
+        
+
+    </section>
+    <section>
+        <h1>Embeded Media</h1>
+        <h2>Audio</h2>
+        <audio controls >
+            <source src="Sample Audio.mp3" type="audio/mpeg">
+        </audio>
+        <h2>Video</h2>
+        <video width="500" height="300" controls>
+            <source src="https://media.istockphoto.com/id/1181890976/video/inside-california-redwood-forest-06.mp4?s=mp4-640x640-is&k=20&c=LbiEBgUjWycqAE4pevCcXZU_S_JIVjDYm12yS1yfvBE="type="video/mp4">
+            Your browser doesn't support videos
+        </video>   
+
+
+
+
+    </section>
+    <section>
+        <h1>Form</h1>
+        <form action="" method="">
+            <label for="">First Name</label>
+            <input type="text" name="firstname" id="firstname" placeholder="Enter your First Name"><br><br>
+            <label for="lastname">Last name</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Enter your Last Name"><br><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your Email here" required><br><br>
+            <label for="age"> Age</label>
+            <input type="number" name="age" id="age" max="30" min="18" required><br><br>
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="dob" required><br><br>
+            <label for="gender"> Gender</label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female<br><br>
+            <label for="resume"> Upload your Resume</label>
+            <input type="file" name="resume" id="resume" required><br><br>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="30" rows="5" placeholder="Enter your message here"></textarea><br><br>
+            <input type="submit" value="Send Message">
+
+        </form>
+
+    </section>
+    
+</body>
+</html>
